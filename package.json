@@ -60,5 +60,8 @@
     "vinyl-source-stream": "^2.0.0",
     "watchify": "^4.0.0",
     "yargs": "^17.7.1"
+  },
+  "dependencies": {
+    "bitmovin-player-ui": "^3.73.0"
   }
 }
