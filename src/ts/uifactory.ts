@@ -51,6 +51,7 @@ import { SpatialNavigation } from './spatialnavigation/spatialnavigation';
 import { RootNavigationGroup } from './spatialnavigation/rootnavigationgroup';
 import { ListNavigationGroup, ListOrientation } from './spatialnavigation/ListNavigationGroup';
 import { EcoModeContainer } from './components/ecomodecontainer';
+import { CustomCloseButton } from './components/customclosebutton';
 
 export namespace UIFactory {
   export function buildDefaultUI(player: PlayerAPI, config: UIConfig = {}): UIManager {
@@ -159,6 +160,7 @@ export namespace UIFactory {
             new VRToggleButton(),
             new SettingsToggleButton({ settingsPanel: settingsPanel }),
             new FullscreenToggleButton(),
+            new CustomCloseButton(),
           ],
           cssClasses: ['controlbar-bottom'],
         }),
